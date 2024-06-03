@@ -54,6 +54,8 @@ function practica(array) {
 
     let ultimoResultado = array.lastIndexOf(numero); // Buscar la última aparición del número en el array
     console.log(ultimoResultado); // Mostrar el índice del número en la consola (o -1 si no se encuentra)
+    array.sort();//para ordenar primero el array
+    console.log(array.reverse());//mostrar arevers el array
 }
 
 
